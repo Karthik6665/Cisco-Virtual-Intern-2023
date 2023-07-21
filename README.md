@@ -1,13 +1,16 @@
 # Cisco-Virtual-Intern-2023
 Problem Statement: Packet Flow Visualizer. 
-The main objective of this project is to create a visual representation of the packet flow from students' laptops/desktops (hosts) to external networks outside of 
-the college campus. 
+The main objective of this project is to create a visual representation of the packet flow from students' laptops/desktops (hosts) to external networks outside of the college campus. 
+
+
 The project can be divided into two key parts, as outlined below:
 • Network Topology Creation: To begin, students will need to determine the devices present within the college network. They can achieve this by using 
 tools like traceroute or by consulting with the college network administrator. Based on the gathered information, students will then create a network 
 topology using Cisco Packet Tracer (available at: https://www.netacad.com/courses/packet-tracer). The topology will illustrate the various network 
 devices, network design, and network boundaries, as explained in the Network Essential course, showcasing the path from the host to the external 
 network.
+
+
 • Packet Flow Investigation: After establishing the network topology using Cisco Packet Tracer and configuring IPv4 addresses on all layer-3 devices, 
 students will proceed to collect packets at each device using a packet sniffer. They can choose to use either the inbuilt sniffer in Cisco Packet Tracer 
 (tutorial available at https://www.youtube.com/watch?v=gsCSKQAVT2M ) or a tool like Wireshark. By analyzing the packets captured from different 
